@@ -31,9 +31,13 @@ public class Flight {
     }
 
     public String getAirline() {
+
         return airline;
     }
 
+    public void nothing (String airline) {
+        this.airline = airline;
+    }
     public void setAirline(String airline) {
         this.airline = airline;
     }
