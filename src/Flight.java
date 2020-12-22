@@ -35,9 +35,6 @@ public class Flight {
         return airline;
     }
 
-    public void nothing (String airline) {
-        this.airline = airline;
-    }
     public void setAirline(String airline) {
         this.airline = airline;
     }
