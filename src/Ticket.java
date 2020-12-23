@@ -1,10 +1,11 @@
-import sun.util.calendar.BaseCalendar;
-
 import java.time.LocalDateTime;
-import java.util.Date;
 
 public class Ticket {
-    private String pnr,from,to,departureTime,arrivalTime;
+    private String pnr;
+    private String from;
+    private String to;
+    private String departureTime;
+    private String arrivalTime;
    private boolean cancelled;
 
 
@@ -12,6 +13,10 @@ public class Ticket {
      private Passenger passenger;
 
     public Ticket(String pnr, String from, String to, String departureTime, String arrivalTime, boolean cancelled, Flight flight, Passenger passenger) {
+
+    }
+
+    {
         this.pnr = pnr;
         this.from = from;
         this.to = to;
@@ -20,6 +25,12 @@ public class Ticket {
         this.cancelled = cancelled;
         this.flight = flight;
         this.passenger = passenger;
+    }
+
+    public Ticket(String flight, String passenger, String to, String deprtureTime, String arrivalTime, boolean cancelled, String s, String passenger1) {
+    }
+
+    public Ticket(String flight, String passenger) {
     }
 
     public String getPnr() {

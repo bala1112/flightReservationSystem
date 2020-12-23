@@ -2,7 +2,7 @@ public class TouristTicket extends Ticket{
     private  String hotelAddress;
     private String[] slectedTouristLocations;
 
-    public TouristTicket(Flight flight, Passenger passenger, String hotelAddress, String[] slectedTouristLocations) {
+    public TouristTicket(String flight, String passenger, String hotelAddress, String[] slectedTouristLocations) {
         super(flight, passenger);
         this.hotelAddress = hotelAddress;
         this.slectedTouristLocations = slectedTouristLocations;
