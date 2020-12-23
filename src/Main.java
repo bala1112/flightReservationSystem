@@ -1,5 +1,3 @@
-package src;
-
 public class Main {
     public static void main(String[] args) {
         Passenger passenger = new Passenger("venkat", "vijayawada", "AP", "Bala", "9542859519", "balapavan1018@gmail.com");
