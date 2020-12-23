@@ -30,7 +30,10 @@ public class Ticket {
     public Ticket(String flight, String passenger, String to, String deprtureTime, String arrivalTime, boolean cancelled, String s, String passenger1) {
     }
 
-    public Ticket(String flight, String passenger) {
+    public Ticket(String pnr, String from, String to, String deprtureTime, String arrivalTime, boolean cancelled, Flight s, Passenger flight, String passenger) {
+    }
+
+    public Ticket(String pnr, String from, String to, boolean cancelled, String departureTime, String arrivalTime, Flight flight, Passenger passenger, String hotelAddress, String[] slectedTouristLocations) {
     }
 
     public String getPnr() {

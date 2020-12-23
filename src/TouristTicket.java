@@ -2,8 +2,8 @@ public class TouristTicket extends Ticket{
     private  String hotelAddress;
     private String[] slectedTouristLocations;
 
-    public TouristTicket(String flight, String passenger, String hotelAddress, String[] slectedTouristLocations) {
-        super(flight, passenger);
+    public TouristTicket(String pnr, String from, String to, boolean cancelled, String departureTime, String arrivalTime, Flight flight, Passenger passenger, String hotelAddress, String[] slectedTouristLocations) {
+        super(pnr,from,to,cancelled,departureTime,arrivalTime,flight, passenger,hotelAddress,slectedTouristLocations);
         this.hotelAddress = hotelAddress;
         this.slectedTouristLocations = slectedTouristLocations;
     }
